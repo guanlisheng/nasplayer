@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.title != "首页" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="{{ '/' | relative_url }}" class="brand">
+        <span class="brand-mark" aria-hidden="true">♪</span>
+        <span class="brand-name">NASPlayer</span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        {% assign p = page.url %}
+        <a href="{{ '/' | relative_url }}" class="{% if p == '/' %}active{% endif %}">首页</a>
+        <a href="{{ '/features.html' | relative_url }}" class="{% if p == '/features.html' %}active{% endif %}">功能</a>
+        <a href="{{ '/setup.html' | relative_url }}" class="{% if p == '/setup.html' %}active{% endif %}">快速开始</a>
+        <a href="{{ '/privacy.html' | relative_url }}" class="{% if p == '/privacy.html' %}active{% endif %}">隐私</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© {{ site.time | date: "%Y" }} NASPlayer · 私人音乐播放器</p>
+      <p class="muted">Made with ♥ for Synology NAS users</p>
+    </div>
+  </footer>
+</body>
+</html>
