@@ -9,6 +9,7 @@ description: NASPlayer —— 为群晖 NAS 打造的原生 iOS 音乐播放器
   <p class="lead">NASPlayer 是一款为群晖（Synology）NAS 打造的原生 iOS 音乐播放器。QuickConnect 一键发现设备，支持 FLAC / ALAC / WAV / DSD / APE 等格式，播放记录、收藏与私人歌单都只保存在本机。</p>
   <div class="cta">
     <a class="btn primary" href="#">App Store 下载</a>
+    <a class="btn primary" href="https://testflight.apple.com/join/bT2vqAZZ"> TestFlight 公开测试</a>
     <a class="btn" href="{{ '/features.html' | relative_url }}">查看全部功能 →</a>
   </div>
   <ul class="hero-meta">
