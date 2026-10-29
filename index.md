@@ -45,7 +45,7 @@ description: NASPlayer —— 为群晖 NAS 打造的原生 iOS 音乐播放器
   <div class="card">
     <div class="card-icon">🔁</div>
     <h3>播放队列与睡眠定时</h3>
-    <p>支持随机、循环、单曲循环，随时调整队列顺序；睡眠定时让你安心入睡。</p>
+    <p>支持随机播放、循环播放和单曲循环，队列顺序随心调整。睡前听故事或音乐，可设置播放完指定数量的曲目后自动停止。</p>
   </div>
   <div class="card">
     <div class="card-icon">💜</div>
