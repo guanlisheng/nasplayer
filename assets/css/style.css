@@ -105,6 +105,21 @@ body {
 .site-nav a:hover,
 .site-nav a.active { color: var(--text); }
 
+@media (max-width: 600px) {
+  .header-inner {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .site-nav {
+    flex-wrap: wrap;
+    gap: 8px 18px;
+  }
+}
+
 /* 内容 */
 .content {
   padding: 48px 0 80px;
