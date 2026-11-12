@@ -1,4 +1,3 @@
-```markdown
 ---
 title: 隐私
 description: NASPlayer 隐私政策
@@ -140,4 +139,3 @@ NASPlayer 保存在设备上的数据可能随 iCloud / iTunes 备份一起备�
 如果本政策发生变化，我们会更新本页面。
 
 最后更新：2026-11-12
-```

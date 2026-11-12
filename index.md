@@ -1,4 +1,3 @@
-```markdown
 ---
 title: 首页
 description: NASPlayer —— 为群晖 NAS 打造的原生 iOS 音乐播放器
@@ -175,4 +174,3 @@ Files 音乐则直接从你授权的文件提供商获取。
 NASPlayer 没有自己的音乐云端存储，也不要求把私人音乐上传给开发者。
 
 详见[隐私政策]({{ '/privacy.html' | relative_url }})。
-```
